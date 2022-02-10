@@ -1,23 +1,29 @@
 <!DOCTYPE html>
     <head>
+        <meta charset="UTF-8">
         <title>basic website</title>
         <link rel ="icon" type="image/x-icon" href= "html logo.png">
         <style type="text/css">
-              .code {
-                margin :200px auto;
+            body{
+             background-image: url("https://i.pinimg.com/474x/d8/da/ed/d8daed0f5d94b0fd05dc8ce76ab4e3a2.jpg");
+            }
+            .code {
+                margin:30px 10px 0 1000px;
                 width :300px;
-                padding:40px;
+                background-color: rgb(121, 209, 209);
+                padding: 40px;
+                border-radius:15px 50px;
                 box-shadow:10px 3px 14px 9px rgb(131, 128, 128) ;
              }
-             .header {
+            .header {
                  margin: 0 0 15px 0;
                  text-align: center;
                  border-bottom:1px solid;
                  text-transform:uppercase;
                  font-size :28px;
-                 color: rgb(26, 172, 177);
-             }
-             label{ 
+                 color: rgb(20, 56, 175);
+            }
+            label{ 
                  font-size: 18px;
                  font-weight: bold ;
                 }
@@ -28,22 +34,42 @@
                 border-radius:2px;
                 border:1 px solid rgb(38, 140, 180);
             }  
-        button { 
-            font-size: small;
-            width:100%;
-            margin:0;
-            text-align:center;
-            padding:10px 25px ;
-            background-color: rgb(27, 106, 209); }
-        p {
-            text-align: center ;
-        }    
-    
+            button { 
+                font-size: small;
+                width:100%;
+                margin:0;
+                text-align:center;
+                padding:10px 25px ;
+                background-color: rgb(27, 106, 209); }
+            .log {
+                text-align: center ;
+            }   
+            .logo { 
+                font-size: medium; font-weight:400; 
+            } 
+            .content {
+               float: left;
+               font-size: larger;
+               text-align: left;
+               font-family: fantasy;
+        
+            }
+
+            .p{ 
+               float:left;
+               font-size: medium;
+               text-align:left;
+               font-family:cursive;
+            }
 
         </style>
     </head>
-     <body>
-     <div class="code">  
+    <body>
+    <div>
+        <h1 class="content" > Accelerate Your Career </h1><br>
+        <p class="p"> A leading Higher Education platform for Students & Early Career Professionals driven by Top Industry Experts<br> and enabled by Learning Paths, 1:1 Coaching and Access to Opportunity.</p>
+    </div>   
+    <div class="code">
     <h3 class="header">signup</h3>
      <form>
      <div>
@@ -71,7 +97,7 @@
     <div>
         <button type="submit" value="Signup"> Sign up! </button>
     </div>
-   <p>Already have an account? <a href="https://www.w3schools.com">SignIn</a></p>
+   <p class="log">Already have an account? <a href="https://www.w3schools.com">SignIn</a></p>
 </div>
     </form>
     </body>
