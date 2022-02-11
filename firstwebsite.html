@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>basic website</title>
+        <link rel ="icon" type="image/x-icon" href= "html logo.png">
+        <style type="text/css">
+            body{
+             background-image: url("https://cutewallpaper.org/21/professional-business-backgrounds/Business-Professional-wallpapers-20-Collections.jpg");
+            }
+            .form {
+                
+                width :400px;
+                height:500px;
+                background-color: rgb(120, 149, 177);
+                position: absolute;
+                top: -2px;
+                left: 870px;
+                padding:40px 10px 50px 30px;
+                border-radius:15px 50px;
+                box-shadow:10px 3px 14px 9px rgb(131, 128, 128) ;
+             }
+            .header {
+                width: 220px;
+                 margin: 0 0 5px 0;
+                 text-align: center;
+                 border-bottom:2px solid;
+                 text-transform:uppercase;
+                 font-size :28px;
+                 color: rgb(17, 31, 77);
+                 text-align: center;
+
+            }
+            label{ 
+                 font-size: 18px;
+                 font-weight: bold ;
+                 color: black;
+                }
+            input{
+                width: 200px;
+                height:30px ;
+                margin: 0 0 20px;
+                border-radius:2px;
+                border:1 px solid rgb(38, 140, 180);
+            }  
+            button { 
+                font-size: small;
+                width:80%;
+                margin:0 0 0 30px;
+                text-align:center;
+                padding:10px 25px ;
+                background-color: rgb(27, 106, 209); }
+            
+            .content {
+               width: 1400px; 
+               height:auto;
+               margin: auto;
+               color:white;
+               position:relative;
+            }
+
+            .content .par{ 
+               padding-left:20px;
+               padding-bottom: 25px;
+               letter-spacing: 1.2px;
+               line-height:30px ;
+               font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+               color: azure;
+            }
+            .content h1{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 50px;
+                padding-left: 20px ;
+                margin-top:9% ;
+                letter-spacing:1px ;
+
+            }
+            .content .cn{
+                 width: 160px;
+                 height: 40px;
+                 background-color: blueviolet; 
+                 border:none;
+                 margin-bottom: 10px;
+                 margin-left: 200px;
+                 font-size: 18px;
+                 border-radius: 10px;
+                 cursor: pointer;
+
+            }
+        .content .cn a{
+            text-decoration: none;
+            color: black;
+            transition: .3s ease;
+        }  
+        .cn:hover{
+            background-color: azure;
+        }
+        .img{
+            float:left;
+            margin:0;
+            padding:0;
+            border: radius 50%;
+            padding: 1px;
+            border: 1px solid transparent ;
+            background: rgb(41, 40, 40);
+           
+        }
+        .log{
+            text-align: center;
+            color: black;
+        }
+        
+
+        </style>
+    </head>
+    <body>
+       
+    <div class="content">
+        <h1> Accelerate Your Career</h1>
+        <p class="par"> A leading Higher Education platform for Students & Early Career <br> Professionals driven by Top Industry Experts and enabled by Learning Paths,<br> 1:1 Coaching and Access to Opportunity.</p>
+        <button class="cn"><a href="#">Join Us</a></button>   
+    <div class="form">
+    <img class="img" src="data:image/png;base64,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" width="50" height="50" >    
+    <h3 class="header">signup</h3>
+     <form><br><br>
+     <div>
+        <label>Username:</label>
+    </div><br>
+    <div>
+        <input type="text" placeholder="Enter Username" required autofocus>
+    </div>
+    <div>
+        <label>Email:</label>
+    </div><br> 
+    <div>  
+        <input type="text" placeholder="abc@gmail.com" required>
+    </div>
+    <div>
+        <label>Password:</label></div>
+    <div><br>
+        <input type="password"placeholder="Enter Password"required>
+    </div>
+    <div>
+        <label > Confirm Password:</label></div>
+    <div><br>
+        <input type="text"placeholder="Confirm your password"required>
+    </div>  
+    <div>
+        <button type="submit" value="Signup"> Sign up! </button>
+    </div><br>
+   <div class="log">Already have an account? <a href="https://www.w3schools.com">SignIn</a></div>
+    </div>
+    </div>
+    </div>
+    </form>
+    </body>
+    </html>
+
