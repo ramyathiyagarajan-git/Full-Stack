@@ -1,0 +1,20 @@
+hr {
+    border-width: 5px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    width: 10%;
+}
+body{
+
+    background-color:powderblue;
+}
+
+h1 {
+    color: #1C658C;
+}
+
+h2 {
+    color: #1C658C;
+}
+ 
